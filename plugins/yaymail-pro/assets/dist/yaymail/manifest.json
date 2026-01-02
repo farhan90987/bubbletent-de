@@ -1,0 +1,131 @@
+{
+  "_vendor_antd_form-fb69d755.js": {
+    "file": "vendor_antd_form-fb69d755.js"
+  },
+  "_vendor_antd_table-7f3937e5.js": {
+    "file": "vendor_antd_table-7f3937e5.js",
+    "imports": [
+      "_vendor_antd_form-fb69d755.js"
+    ]
+  },
+  "assets/svgs/addons-icon.svg": {
+    "file": "addons-icon-97582c56.svg",
+    "src": "assets/svgs/addons-icon.svg"
+  },
+  "assets/svgs/desktop-icon.svg": {
+    "file": "desktop-icon-39c91fc1.svg",
+    "src": "assets/svgs/desktop-icon.svg"
+  },
+  "assets/svgs/documentation-icon.svg": {
+    "file": "documentation-icon-bb597d59.svg",
+    "src": "assets/svgs/documentation-icon.svg"
+  },
+  "assets/svgs/email-templates-icon.svg": {
+    "file": "email-templates-icon-978d3c1f.svg",
+    "src": "assets/svgs/email-templates-icon.svg"
+  },
+  "assets/svgs/empty-template-icon.svg": {
+    "file": "empty-template-icon-f82dde2f.svg",
+    "src": "assets/svgs/empty-template-icon.svg"
+  },
+  "assets/svgs/expand-icon.svg": {
+    "file": "expand-icon-2a3818aa.svg",
+    "src": "assets/svgs/expand-icon.svg"
+  },
+  "assets/svgs/extra-options-icon.svg": {
+    "file": "extra-options-icon-71b50504.svg",
+    "src": "assets/svgs/extra-options-icon.svg"
+  },
+  "assets/svgs/global-header-footer-icon.svg": {
+    "file": "global-header-footer-icon-b86567bb.svg",
+    "src": "assets/svgs/global-header-footer-icon.svg"
+  },
+  "assets/svgs/history-icon.svg": {
+    "file": "history-icon-29a51e4e.svg",
+    "src": "assets/svgs/history-icon.svg"
+  },
+  "assets/svgs/import-template-icon.svg": {
+    "file": "import-template-icon-20883f78.svg",
+    "src": "assets/svgs/import-template-icon.svg"
+  },
+  "assets/svgs/mobile-icon.svg": {
+    "file": "mobile-icon-d13c3aa6.svg",
+    "src": "assets/svgs/mobile-icon.svg"
+  },
+  "assets/svgs/play.svg": {
+    "file": "play-7b22e39e.svg",
+    "src": "assets/svgs/play.svg"
+  },
+  "assets/svgs/preview-email-icon.svg": {
+    "file": "preview-email-icon-b2920e0b.svg",
+    "src": "assets/svgs/preview-email-icon.svg"
+  },
+  "assets/svgs/preview-icon.svg": {
+    "file": "preview-icon-b73070f1.svg",
+    "src": "assets/svgs/preview-icon.svg"
+  },
+  "assets/svgs/redo-icon.svg": {
+    "file": "redo-icon-e88197e5.svg",
+    "src": "assets/svgs/redo-icon.svg"
+  },
+  "assets/svgs/reset-template-icon.svg": {
+    "file": "reset-template-icon-1fea6b69.svg",
+    "src": "assets/svgs/reset-template-icon.svg"
+  },
+  "assets/svgs/send-mail-success.svg": {
+    "file": "send-mail-success-fcdc5912.svg",
+    "src": "assets/svgs/send-mail-success.svg"
+  },
+  "assets/svgs/settings-icon.svg": {
+    "file": "settings-icon-f4b648ea.svg",
+    "src": "assets/svgs/settings-icon.svg"
+  },
+  "assets/svgs/shortcodes-icon.svg": {
+    "file": "shortcodes-icon-a5ff884f.svg",
+    "src": "assets/svgs/shortcodes-icon.svg"
+  },
+  "assets/svgs/subject-mail-icon.svg": {
+    "file": "subject-mail-icon-6a7da6f0.svg",
+    "src": "assets/svgs/subject-mail-icon.svg"
+  },
+  "assets/svgs/support-icon.svg": {
+    "file": "support-icon-29ace2fa.svg",
+    "src": "assets/svgs/support-icon.svg"
+  },
+  "assets/svgs/undo-icon.svg": {
+    "file": "undo-icon-53a6e3b4.svg",
+    "src": "assets/svgs/undo-icon.svg"
+  },
+  "assets/svgs/wp-logo.svg": {
+    "file": "wp-logo-f8804a6d.svg",
+    "src": "assets/svgs/wp-logo.svg"
+  },
+  "assets/svgs/yaymail-logo.svg": {
+    "file": "yaymail-logo-674372ea.svg",
+    "src": "assets/svgs/yaymail-logo.svg"
+  },
+  "assets/svgs/yaysmtp-logo.svg": {
+    "file": "yaysmtp-logo-aed4803a.svg",
+    "src": "assets/svgs/yaysmtp-logo.svg"
+  },
+  "features/email-customizer/components/notice/notice-icon.svg": {
+    "file": "notice-icon-a3a0583d.svg",
+    "src": "features/email-customizer/components/notice/notice-icon.svg"
+  },
+  "yaymail-main.css": {
+    "file": "yaymail-main-6c0dcf8d.css",
+    "src": "yaymail-main.css"
+  },
+  "yaymail-main.tsx": {
+    "css": [
+      "yaymail-main-6c0dcf8d.css"
+    ],
+    "file": "yaymail-main.tsx-66248114.js",
+    "imports": [
+      "_vendor_antd_form-fb69d755.js",
+      "_vendor_antd_table-7f3937e5.js"
+    ],
+    "isEntry": true,
+    "src": "yaymail-main.tsx"
+  }
+}
