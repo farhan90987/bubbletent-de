@@ -1,0 +1,10 @@
+<wpml-config>
+    <shortcodes>
+        <shortcode>
+            <tag>ts_widget</tag>
+            <attributes>
+                <attribute>id</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
