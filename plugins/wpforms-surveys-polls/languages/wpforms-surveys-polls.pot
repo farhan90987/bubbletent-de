@@ -1,0 +1,572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Surveys and Polls 1.16.0\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-27T14:07:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-surveys-polls\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Surveys and Polls"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create Surveys and Polls with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#: src/Admin.php:108
+msgid "You've just turned off storing entry information in WordPress. Surveys and Polls addon requires entries to be stored, otherwise, it won't be able to process the data and display you the results."
+msgstr ""
+
+#: src/Admin.php:109
+msgid "This feature can't currently be used because entry storage is disabled for this form. Please go to Settings > General and uncheck the \"Disable storing entry information in WordPress\" option. Then, try enabling this feature again."
+msgstr ""
+
+#: src/Admin.php:146
+#: src/Admin.php:252
+msgid "Enable Survey Reporting"
+msgstr ""
+
+#: src/Admin.php:147
+msgid "Check this option to track user input and include in survey reporting."
+msgstr ""
+
+#: src/Admin.php:189
+#: src/Reporting/Admin.php:393
+msgid "View Survey Results"
+msgstr ""
+
+#: src/Admin.php:190
+#: src/Reporting/Admin.php:589
+msgid "Survey Results"
+msgstr ""
+
+#: src/Admin.php:211
+#: src/Admin.php:230
+msgid "Surveys and Polls"
+msgstr ""
+
+#. translators: %s - WPForms.com documentation page URL.
+#: src/Admin.php:235
+msgid "Survey Reporting for all supported fields will be turned on. For more details and advanced survey options visit our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Surveys documentation</a>."
+msgstr ""
+
+#. translators: %s - WPForms.com documentation page URL.
+#: src/Admin.php:260
+msgid "Poll results for all Checkbox, Multiple Choice, and Dropdown fields will automatically display to users after they submit the form. For more details and advanced poll options visit our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Polls documentation</a>."
+msgstr ""
+
+#: src/Admin.php:277
+msgid "Enable Poll Results"
+msgstr ""
+
+#: src/Fields/LikertScale/Field.php:542
+msgid "(Empty)"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:231
+msgid "Style"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:232
+msgid "Select the style for the net promoter score."
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:243
+msgid "Modern"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:244
+msgid "Classic"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:268
+msgid "Lowest Score Label"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:278
+#: src/Fields/NetPromoterScore/Field.php:354
+msgid "Not at all Likely"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:298
+msgid "Highest Score Label"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:308
+#: src/Fields/NetPromoterScore/Field.php:355
+msgid "Extremely Likely"
+msgstr ""
+
+#: src/Fields/NetPromoterScore/Field.php:459
+msgid "Invalid score; must be 0-10."
+msgstr ""
+
+#. translators: %s - votes count.
+#: src/Polls.php:191
+msgid "(%s vote)"
+msgid_plural "(%s votes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - total votes.
+#: src/Polls.php:213
+msgid "Total Votes: %s"
+msgstr ""
+
+#: src/Reporting/Admin.php:396
+msgid "or"
+msgstr ""
+
+#: src/Reporting/Admin.php:398
+msgid "View another question"
+msgstr ""
+
+#: src/Reporting/Admin.php:560
+msgid "Entries"
+msgstr ""
+
+#: src/Reporting/Admin.php:569
+msgid "It looks like the form you are trying to access is no longer available."
+msgstr ""
+
+#: src/Reporting/Admin.php:594
+msgid "Back to All Entries"
+msgstr ""
+
+#: src/Reporting/Admin.php:599
+msgid "Select Form"
+msgstr ""
+
+#: src/Reporting/Admin.php:612
+msgid "Edit This Form"
+msgstr ""
+
+#: src/Reporting/Admin.php:618
+msgid "Preview Form"
+msgstr ""
+
+#: src/Reporting/Admin.php:623
+msgid "Export All"
+msgstr ""
+
+#: src/Reporting/Admin.php:627
+msgid "Print Survey Report"
+msgstr ""
+
+#: src/Reporting/Admin.php:656
+msgid "Open form selector"
+msgstr ""
+
+#: src/Reporting/Admin.php:697
+msgid "WPForms Survey Print Preview"
+msgstr ""
+
+#: src/Reporting/Admin.php:710
+msgid "Close"
+msgstr ""
+
+#: src/Reporting/Admin.php:711
+#: src/Reporting/Admin.php:811
+msgid "Print"
+msgstr ""
+
+#: src/Reporting/Admin.php:746
+msgid "Calculating Field Results"
+msgstr ""
+
+#: src/Reporting/Admin.php:749
+msgid "Calculating Survey Results"
+msgstr ""
+
+#: src/Reporting/Admin.php:750
+msgid "We're crunching the numbers, this may take a minute."
+msgstr ""
+
+#: src/Reporting/Admin.php:779
+msgid "Toggle displaying question"
+msgstr ""
+
+#: src/Reporting/Admin.php:784
+msgid "Question"
+msgstr ""
+
+#: src/Reporting/Admin.php:791
+msgid "View line chart"
+msgstr ""
+
+#: src/Reporting/Admin.php:794
+msgid "View pie chart"
+msgstr ""
+
+#: src/Reporting/Admin.php:797
+msgid "View horizontal bar chart"
+msgstr ""
+
+#: src/Reporting/Admin.php:800
+msgid "View bar chart"
+msgstr ""
+
+#: src/Reporting/Admin.php:806
+msgid "Export"
+msgstr ""
+
+#: src/Reporting/Admin.php:808
+msgid "Save as JPG"
+msgstr ""
+
+#: src/Reporting/Admin.php:809
+msgid "Save as PDF"
+msgstr ""
+
+#: src/Reporting/Admin.php:821
+msgid "There are no answers to this question yet."
+msgstr ""
+
+#: src/Reporting/Admin.php:830
+msgid "Download Chart"
+msgstr ""
+
+#: src/Reporting/Admin.php:837
+msgid "Detractors (0-6)"
+msgstr ""
+
+#: src/Reporting/Admin.php:838
+msgid "Passives (7-8)"
+msgstr ""
+
+#: src/Reporting/Admin.php:839
+msgid "Promoters (9-10)"
+msgstr ""
+
+#: src/Reporting/Admin.php:840
+#: src/Reporting/Fields.php:592
+msgid "Net Promoter Score"
+msgstr ""
+
+#: src/Reporting/Admin.php:858
+#: src/Reporting/Admin.php:911
+msgid "Answers"
+msgstr ""
+
+#: src/Reporting/Admin.php:859
+msgid "Responses"
+msgstr ""
+
+#: src/Reporting/Admin.php:912
+msgid "Date"
+msgstr ""
+
+#: src/Reporting/Admin.php:917
+msgid "View respondent's answers"
+msgstr ""
+
+#: src/Reporting/Admin.php:926
+msgid "Answered"
+msgstr ""
+
+#: src/Reporting/Admin.php:931
+msgid "Average"
+msgstr ""
+
+#: src/Reporting/Admin.php:936
+msgid "Skipped"
+msgstr ""
+
+#: src/Reporting/Ajax.php:45
+msgid "Error fetching the data."
+msgstr ""
+
+#: src/Reporting/Ajax.php:72
+msgid "Survey results will display here after form submissions are received. Please check back later."
+msgstr ""
+
+#. translators: %s - number of stars.
+#: src/Reporting/Fields.php:133
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - number of hearts.
+#: src/Reporting/Fields.php:138
+msgid "%s heart"
+msgid_plural "%s hearts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - number of thumbs.
+#: src/Reporting/Fields.php:143
+msgid "%s thumb"
+msgid_plural "%s thumbs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - number of smileys.
+#: src/Reporting/Fields.php:148
+msgid "%s smiley"
+msgid_plural "%s smileys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Reporting/Fields.php:557
+msgid "Single Line Text"
+msgstr ""
+
+#: src/Reporting/Fields.php:562
+msgid "Paragraph Text"
+msgstr ""
+
+#: src/Reporting/Fields.php:567
+msgid "Dropdown"
+msgstr ""
+
+#: src/Reporting/Fields.php:572
+msgid "Multiple Choice"
+msgstr ""
+
+#: src/Reporting/Fields.php:577
+msgid "Checkboxes"
+msgstr ""
+
+#: src/Reporting/Fields.php:582
+msgid "Rating"
+msgstr ""
+
+#: src/Reporting/Fields.php:587
+msgid "Likert Scale"
+msgstr ""
+
+#: src/Reporting/Fields.php:721
+#: src/Reporting/Fields.php:726
+#: src/Templates/Poll.php:59
+msgid "Other"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:21
+msgid "NPS Survey Enhanced Form"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:23
+msgid "Measure customer loyalty and find out exactly what they are thinking with this enhanced Net Promoter Score survey template."
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:34
+#: src/Templates/NPSSurveySimple.php:34
+msgid "How likely are you to recommend us to a friend or colleague?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:42
+#: src/Templates/NPSSurveySimple.php:43
+msgid "How did we disappoint you and what can we do to make things right?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:59
+#: src/Templates/NPSSurveySimple.php:60
+msgid "What could we do to improve?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:81
+msgid "What do you like most about us?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:98
+msgid "Would you be willing to provide us a testimonial?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:101
+msgid "Yes"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:105
+msgid "No"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:124
+msgid "What is your email address?"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:125
+msgid "We'll use this to get in touch with you, so we can make things right - Thanks for giving us a chance 🙂"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:148
+#: src/Templates/NPSSurveySimple.php:81
+#: src/Templates/Survey.php:130
+msgid "Submit"
+msgstr ""
+
+#: src/Templates/NPSSurveyEnhanced.php:152
+#: src/Templates/NPSSurveySimple.php:85
+#: src/Templates/Poll.php:71
+#: src/Templates/Survey.php:134
+msgid "Sending..."
+msgstr ""
+
+#: src/Templates/NPSSurveySimple.php:21
+msgid "NPS Survey Simple Form"
+msgstr ""
+
+#: src/Templates/NPSSurveySimple.php:23
+msgid "Find out if your clients or customers would recommend you to someone else with this basic Net Promoter Score survey template."
+msgstr ""
+
+#: src/Templates/Poll.php:21
+msgid "Poll Form"
+msgstr ""
+
+#: src/Templates/Poll.php:23
+msgid "Ask visitors a question and display the results after they provide an answer."
+msgstr ""
+
+#: src/Templates/Poll.php:34
+msgid "What is your favorite color?"
+msgstr ""
+
+#: src/Templates/Poll.php:39
+msgid "Red"
+msgstr ""
+
+#: src/Templates/Poll.php:43
+msgid "Green"
+msgstr ""
+
+#: src/Templates/Poll.php:47
+msgid "Blue"
+msgstr ""
+
+#: src/Templates/Poll.php:51
+msgid "Orange"
+msgstr ""
+
+#: src/Templates/Poll.php:55
+msgid "Purple"
+msgstr ""
+
+#: src/Templates/Poll.php:66
+msgid "Vote"
+msgstr ""
+
+#: src/Templates/Poll.php:70
+msgid "Thanks for voting! Results are below."
+msgstr ""
+
+#: src/Templates/Survey.php:21
+msgid "Survey Form"
+msgstr ""
+
+#: src/Templates/Survey.php:23
+msgid "Collect customer feedback, then generate survey reports to determine satisfaction and spot trends."
+msgstr ""
+
+#: src/Templates/Survey.php:34
+msgid "Name"
+msgstr ""
+
+#: src/Templates/Survey.php:42
+msgid "Email"
+msgstr ""
+
+#: src/Templates/Survey.php:50
+msgid "Your Experience"
+msgstr ""
+
+#: src/Templates/Survey.php:51
+msgid "Overall, how would you rate your experience with us?"
+msgstr ""
+
+#: src/Templates/Survey.php:61
+msgid "How can we improve?"
+msgstr ""
+
+#: src/Templates/Survey.php:62
+msgid "We're sorry you did not have a good experience. Please let us know how we can do better."
+msgstr ""
+
+#: src/Templates/Survey.php:87
+msgid "How satisfied are you with"
+msgstr ""
+
+#: src/Templates/Survey.php:91
+msgid "Purchase"
+msgstr ""
+
+#: src/Templates/Survey.php:92
+msgid "Service"
+msgstr ""
+
+#: src/Templates/Survey.php:93
+msgid "Company Overall"
+msgstr ""
+
+#: src/Templates/Survey.php:96
+msgid "Very Unsatisfied"
+msgstr ""
+
+#: src/Templates/Survey.php:97
+msgid "Unsatisfied"
+msgstr ""
+
+#: src/Templates/Survey.php:98
+#: src/Templates/Survey.php:117
+msgid "Neutral"
+msgstr ""
+
+#: src/Templates/Survey.php:99
+msgid "Satisfied"
+msgstr ""
+
+#: src/Templates/Survey.php:100
+msgid "Very Satisfied"
+msgstr ""
+
+#: src/Templates/Survey.php:106
+msgid "How likely are you to"
+msgstr ""
+
+#: src/Templates/Survey.php:110
+msgid "Buy from us again"
+msgstr ""
+
+#: src/Templates/Survey.php:111
+msgid "Recommend our product to others"
+msgstr ""
+
+#: src/Templates/Survey.php:112
+msgid "Recommend our company to others"
+msgstr ""
+
+#: src/Templates/Survey.php:115
+msgid "Very Unlikely"
+msgstr ""
+
+#: src/Templates/Survey.php:116
+msgid "Unlikely"
+msgstr ""
+
+#: src/Templates/Survey.php:118
+msgid "Likely"
+msgstr ""
+
+#: src/Templates/Survey.php:119
+msgid "Very Likely"
+msgstr ""
+
+#: src/Templates/Survey.php:125
+msgid "Additional comments or suggestions"
+msgstr ""
