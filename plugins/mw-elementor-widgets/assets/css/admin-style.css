@@ -1,0 +1,33 @@
+/* make the wrap container a positioning context */
+.wrap {
+  position: relative;
+}
+
+/* full-screen overlay, flex-centered */
+#map-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+  pointer-events: none;      /* let clicks pass through */
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* your spinner */
+#map-loader .map-loader-inner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0,0,0,0.1);
+  border-top-color: #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

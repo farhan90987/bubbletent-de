@@ -1,0 +1,55 @@
+/* Dots Container */
+.template-loop-carousel{
+    padding-top: 30px;
+    position: relative;
+}
+.template-loop-carousel .owl-dots {
+    position: absolute;
+    top: 0;
+  }
+  
+  .template-loop-carousel .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    background: #3d6651 !important;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+  
+  .template-loop-carousel .owl-dot.active {
+    width: 24px;
+    background: #3d6651;
+    opacity: 1;
+    border-radius: 10px;
+  }
+  
+
+.template-loop-carousel .owl-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.owl-carousel.template-loop-carousel .owl-nav .owl-next,
+.owl-carousel.template-loop-carousel .owl-nav .owl-prev{
+    padding: 0px !important;
+    font-weight: 500;
+}
+
+.owl-carousel.template-loop-carousel .owl-nav .owl-next:hover,
+.owl-carousel.template-loop-carousel .owl-nav .owl-prev:hover{
+    color:#3d6651;
+}
+
+.template-loop-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,331 @@
+.mw-bubble-region {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+.mw-bubble-region svg.marker {
+    cursor: pointer;
+}
+.mw-bubble-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.mw-bubble-map {
+    border-radius: 25px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.mw-tooltip {
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    pointer-events: none;
+    z-index: 10;
+    width: 350px;
+    transform: translate(-50%, -50%);
+}
+.map-container img, 
+.map-container svg {
+    pointer-events: auto;
+}
+
+.mw-tooltip {
+    pointer-events: auto;
+    z-index: 9999;
+}
+.mw-tooltip-price {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #fff;
+    color: #4a6f55;
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+.mw-tooltip-price .unit{
+  display: block;
+}
+.mw-tooltip-image img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.mw-tooltip-content-wrap {
+    border-radius: 20px;
+    position: relative;
+    top: -30px;
+    background-color: #fff;
+    margin-bottom: -30px;
+    padding: 10px;
+}
+.mw-tooltip-text {
+    padding: 10px 12px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mw-tooltip-text img{
+  width: 30px;
+}
+
+.mw-tooltip-text strong {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+}
+
+.mw-tooltip-date {
+    background: #fff;
+    border-radius: 999px;
+    padding: 1px 12px 1px 0;
+    margin: 10px auto 6px auto;
+    display: inline-block;
+    border: 2px solid #4a6f55;
+    color: #4a6f55;
+    font-weight: 600;
+}
+.mw-tooltip-date img {
+    width: 36px;
+    border: 2px solid #4a6f55;
+    border-radius: 50%;
+    padding: 4px;
+}
+.mw-tooltip-date .date-range {
+    padding: 2px 20px;
+}
+.mw-tooltip .wrapper{
+  display: flex;
+  flex-direction: column; 
+  gap: 2px;
+}
+
+.mw-tooltip .mw-tooltip-icon {
+    position: absolute;
+    height: 0.5rem; 
+    width: 100%;
+    color: #4a6f55;
+    left: 0;
+    top: 100%;  
+}
+.mw-tooltip-text .name {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.mw-tooltip-text .location {
+    font-size: 15px;
+}
+.mw-bubble-tabs {
+    display: flex;
+    gap: 15PX;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+/* Dots Container */
+.mw-bubble-carousel-items{
+    padding-top: 30px;
+    position: relative;
+}
+.mw-bubble-carousel-items .owl-dots {
+    position: absolute;
+    top: 0;
+  }
+  
+  .mw-bubble-carousel-items .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+  
+  .mw-bubble-carousel-items .owl-dot.active {
+    width: 24px;
+    opacity: 1;
+    border-radius: 10px;
+  }
+  
+
+.mw-bubble-carousel-items .owl-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.owl-carousel.mw-bubble-carousel-items .owl-nav .owl-next,
+.owl-carousel.mw-bubble-carousel-items .owl-nav .owl-prev{
+    padding: 0px !important;
+    font-weight: 500;
+}
+
+.owl-carousel.mw-bubble-carousel-items .owl-nav .owl-next:hover,
+.owl-carousel.mw-bubble-carousel-items .owl-nav .owl-prev:hover{
+    color:#3d6651;
+}
+
+.template-loop-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.mw-item {
+    background-color: #fff;
+    border-radius: 22px;
+    width: 100%;
+}
+
+.mw-item img {
+    border-radius: 22px;
+    width: 100%;
+}
+.mw-thumb {
+    height: 325px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 15px;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.mw-bubble-carousel {
+    .mw-item-inner {
+        padding: 5px 20px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+}
+
+.mw-date {
+    color: #54775E;
+}
+
+h3.mw-title {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.item.listing-style {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+span.mw-feature {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 10px;
+    /* backdrop-filter: blur(2px); */
+    background: #00000047;
+}
+
+@media only screen and (max-width: 767px){
+    .mw-bubble-region{
+        grid-template-columns: 1fr;
+    }
+    .mw-tooltip{
+        left: 50% !important;
+    }
+	.mw-bubble-right {
+		padding-top: 60px;
+	}
+	
+	.mw-tooltip {
+		width: 70dvw;
+	}
+	.mw-tooltip-text {
+		padding: 0px;
+	}
+	.mw-tooltip-text .name, .mw-tooltip-text .location {
+		font-size: 12px;
+    	line-height: 12px;
+	}
+    .mw-bubble-left{
+        order: 1;
+        margin-top: 40px;
+    }
+    .mw-bubble-tabs{
+        justify-content: center;
+    }
+}
+
+.mw-bubble-tab-button.active {
+  position: relative;
+}
+
+/* First (top) dot */
+.mw-bubble-tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Second (lower) dot */
+.mw-bubble-tab-button.active::before {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 55%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.mw-bubble-carousel {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.mw-bubble-carousel .mw-bubble-carousel-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

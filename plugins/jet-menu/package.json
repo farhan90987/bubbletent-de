@@ -1,0 +1,15 @@
+{
+  "name": "jet-menu-gulp-project",
+  "version": "2.1.0",
+  "devDependencies": {
+    "@wordpress/scripts": "^31.1.0"
+  },
+  "scripts": {
+    "build:assets": "wp-scripts build --config webpack.build.js",
+    "start:assets": "wp-scripts start --config webpack.build.js",
+
+    "build": "npm run build:assets",
+    "dev": "npm run start:assets",
+    "start": "npm run start:assets"
+  }
+}
