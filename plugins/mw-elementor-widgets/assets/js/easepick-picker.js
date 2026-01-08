@@ -83,10 +83,35 @@ function easepick_picker() {
                 minDays: 2,
                 inseparable: true,
                 filter(date, picked) {
-                    if (picked.length === 1) {
-                        const incl = date.isBefore(picked[0]) ? '[)' : '(]';
-                        return !picked[0].isSame(date, 'day') && date.inArray(bookedDates, incl);
+                    // If nothing selected yet → block booked dates normally
+                    if (picked.length === 0) {
+                        return date.inArray(bookedDates, '[)');
                     }
+
+                    // If start date selected
+                    if (picked.length === 1) {
+                        const start = picked[0];
+
+                        // Allow same day
+                        if (date.isSame(start, 'day')) {
+                            return false;
+                        }
+
+                        // Check if date is blocked
+                        const isBlocked = date.inArray(bookedDates, '[)');
+
+                        if (!isBlocked) {
+                            return false; // free date
+                        }
+
+                        // 🔥 IMPORTANT PART:
+                        // Allow selecting the FIRST blocked day as checkout
+                        const prevDay = date.clone().subtract(1, 'day');
+
+                        return !prevDay.isSame(start, 'day');
+                    }
+
+                    // Default: block booked dates
                     return date.inArray(bookedDates, '[)');
                 },
             }
